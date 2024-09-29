@@ -1,0 +1,240 @@
+.main{
+  background-image: url('back.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: none;
+ 
+  color: #fff;
+  
+}
+.main h1{
+font-family: "Dancing Script", cursive;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.btn1 {
+  background-color: #d36b3d;
+  border: none;
+}
+.btn1:hover {
+  background-color: #c55a2d;
+}
+h1, h6 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.dropdown {
+  margin-bottom: 20px;
+}
+.navbar {
+  background-color: #000; 
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: gold;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: white; 
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: gold;
+}
+
+.navbar-toggler {
+  border-color: gold; 
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='gold' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Gold lines on the toggle icon */
+}
+html {
+  scroll-behavior: smooth;
+}
+.product {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.product h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product h6 {
+  font-size: 1.2rem;
+  color: #d26b3d; 
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#ornamentSelect {
+  width: 60%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: #ffffff;
+  border: 2px solid #d26b3d; 
+  transition: border-color 0.3s ease;
+}
+#ornamentSelect:hover {
+  border-color: #333;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+}
+
+.card-body h6 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-body p {
+  color: #d26b3d;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.btn1 {
+  background-color: #d26b3d;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body img {
+  border-radius: 15px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  width: 100%;  
+  max-height: 250px; 
+  object-fit: cover;
+}
+
+.card-body img:hover {
+  transform: scale(1.1); 
+  opacity: 0.8;
+}
+.btn1:hover {
+  background-color: #333;
+  color: white;
+}
+@media (max-width: 768px) {
+  #ornamentSelect {
+      width: 100%;
+  }
+  
+  .card-body h6 {
+      font-size: 1.1rem; 
+  }
+
+  .card-body p {
+      font-size: 1rem;
+  }
+
+  .btn1 {
+      font-size: 1rem;
+      padding: 8px 20px;
+  }
+}
+section.contact {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+section.contact h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section.contact p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+.form-control {
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1rem;
+}
+textarea.form-control {
+  resize: none;
+}
+button.btn {
+  background-color: #d26b3d;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+button.btn:hover {
+  background-color: #b85a30;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  section.contact h1 {
+      font-size: 2rem;
+  }
+
+  section.contact p {
+      font-size: 1rem;
+  }
+
+  .form-control {
+      font-size: 0.9rem;
+      padding: 12px;
+  }
+
+  button.btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  section.contact h1 {
+      font-size: 1.8rem;
+  }
+
+  section.contact p {
+      font-size: 0.95rem;
+  }
+
+  button.btn {
+      width: 100%; 
+      padding: 12px;
+      font-size: 1.1rem;
+  }
+}
